@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo 'test script executed'"
+    "build": "echo 'build script executed'"
   },
   "author": "Tyler Rollins",
   "license": "ISC"
