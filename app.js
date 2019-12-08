@@ -50,6 +50,7 @@ app.get('/', function (req, res){
 });
 
 //START SERVER====================================================
-app.listen(3000, function(){
-  console.log("Serving on Port 3000");
+var server = app.listen(process.env.PORT || 3000, function () {
+  var port = server.address().port;
+  console.log("Express is working on port " + port);
 });
